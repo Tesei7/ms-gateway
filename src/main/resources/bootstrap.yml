@@ -1,6 +1,6 @@
 spring:
   application:
-    name: zuulservice
+    name: gateway
   profiles:
     active:
       default
