@@ -19,6 +19,8 @@
   --env EUREKASERVER_PORT=8761
   --env EUREKASERVER_URI=http://ms-eureka:8761/eureka/
   --env SERVER_PORT=5555
+  --env ZIPKIN_PORT=9411
+  --env ZIPKIN_URI=http://ms-zipkin:9411
   --name ms-gateway
   --network ms-net
   tesei7/ms-gateway:latest**
